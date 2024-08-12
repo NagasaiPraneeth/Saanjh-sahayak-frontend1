@@ -19,7 +19,6 @@
     "dotenv": "^16.4.5",
     "framer-motion": "^11.2.13",
     "lucide-react": "^0.403.0",
-    "pdfjs-dist": "^3.11.174",
     "react": "^18.3.1",
     "react-doc-viewer": "^0.1.13",
     "react-dom": "^18.3.1",
