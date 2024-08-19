@@ -12,7 +12,8 @@ export default function Main(props) {
     const navigate = useNavigate();    
     useEffect(()=>{
       setIsDoctor(props.isDoctor);
-    },[props.isDoctor]); 
+      console.log("is doctor",isDoctor)
+    },[]); 
       return (
         <div
           className="relative flex size-full min-h-screen flex-col bg-[#f8fafb] group/design-root overflow-x-hidden"
